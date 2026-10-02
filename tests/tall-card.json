@@ -1,5 +1,5 @@
 {
-  "description": "A card at the horizontal centre is resized to 70% of the screen width, its height growing with it.",
+  "description": "A tall card keeps 70% of the width; its height stops at 92% of the free height.",
   "renderer": {
     "screen": {
       "width": 1920,
@@ -10,21 +10,20 @@
       {
         "id": 1,
         "x": 640,
-        "y": 300,
+        "y": 200,
         "width": 640,
-        "height": 300
+        "height": 600
       }
     ],
     "expect": [
       {
-        "settled": true
-      },
-      {
         "card": 1,
         "mode": "resized",
         "width": 1344,
-        "centerX": 960,
-        "height": 630
+        "height": {
+          "min": 948,
+          "max": 953
+        }
       }
     ]
   }

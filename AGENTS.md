@@ -1,6 +1,6 @@
 # Agent instructions
 
-This is a SUPER DESKTOP plugin (`center-magnify`): a WebAssembly window
+This is a SUPER DESKTOP plugin (`gravity-wm`): a WebAssembly window
 renderer with no process. Follow the `super-desktop-plugin` skill in
 `.agents/skills/super-desktop-plugin/SKILL.md` (also at
 https://github.com/gladimdim/super-desktop/tree/master/skills/super-desktop-plugin),
