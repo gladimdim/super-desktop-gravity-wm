@@ -10,8 +10,10 @@ lays out cards by where they sit on the screen:
   toward the centre and it grows back into a card; drop it there and it opens.
 
 Cards are **really resized**, not zoomed: a card near the centre gets more
-columns and rows, so its terminal shows more. While cards move, the change
-animates; the terminal is resized once they come to rest, not on every frame.
+columns and rows, so its terminal shows more. The card you drag reflows as
+you move it (about ten times a second); every other change animates, and
+terminals settle on their final size when the cards come to rest. Terminals
+are never resized on every frame, so the programs in them do not flicker.
 
 ## Turn it on and off
 
